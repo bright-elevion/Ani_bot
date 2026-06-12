@@ -19,7 +19,7 @@ def get_env(name, default=None):
 
 API_ID_STR = get_env("API_ID", "36762662")
 API_HASH = get_env("API_HASH", "1d0ffd66d332c0638d3da242a63ad19a")
-BOT_TOKEN = get_env("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = get_env("TELEGRAM_BOT_TOKEN", "8829867859:AAEgdGVxAdeRODgQluTjDtrH_KOVwVWi1e8")
 
 if not BOT_TOKEN:
     print("CRITICAL ERROR: TELEGRAM_BOT_TOKEN is missing!")
